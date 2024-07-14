@@ -4,5 +4,64 @@
 
 .app {
   height: 100vh;
+  background-color: #dadbd3;
+  display: grid;
+  place-items: center;
 }
+
+.AppBody {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ededed;
+  box-shadow: -1px 4px 20px -6px #000;
+  display: flex;
+}
+
+.sidebarHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-right: 2px solid lightgray;
+  padding: 10px;
+  background-color: #ededed;
+}
+.sidebar {
+  flex: 0.25;
+  background-color: #fff;
+}
+
+.input {
+  padding: 10px 40px;
+  border: 0px;
+  background-color: #f6f6f6;
+  outline: 0;
+  border-radius: 20px;
+}
+
+.search__part {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+}
+
+.sidebar__chat {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.sidebar__chat:hover {
+  cursor: pointer;
+  background-color: #ededed;
+}
+
 
